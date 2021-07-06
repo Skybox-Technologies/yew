@@ -5,6 +5,7 @@ authors = ["Henry Zimmerman <zimhen7@gmail.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
 description = "Macros to be re-exported from the yewtil crate"
+publish = ["skybox"]
 
 [lib]
 proc-macro = true
