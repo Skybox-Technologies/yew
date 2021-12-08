@@ -8,6 +8,5 @@ keywords = ["web", "yew", "validation"]
 categories = ["text-processing", "parsing", "web-programming"]
 description = "Utilities for Yew to validate tag names and attributes"
 repository = "https://github.com/yewstack/yew"
-publish = ["skybox"]
 
 [dependencies]

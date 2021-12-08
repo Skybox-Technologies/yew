@@ -4,7 +4,6 @@ version = "0.2.0"
 authors = ["Hamza <muhammadhamza1311@gmail.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
-publish = ["skybox"]
 
 [dependencies]
 anyhow = "1"
@@ -14,7 +13,7 @@ js-sys = "0.3"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 thiserror = "1"
-yew = { path = "../yew", version = "0.18.0", registry = "skybox" }
+yew = { path = "../yew", version = "0.18.0" }
 wasm-bindgen = "0.2.60"
 wasm-bindgen-futures = "0.4"
 
